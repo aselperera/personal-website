@@ -1,9 +1,7 @@
 ---
 import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
-import TestReact from '../components/TestComponent';
+import Homepage from '../components/Homepage';
 ---
 
 <!doctype html>
@@ -12,11 +10,8 @@ import TestReact from '../components/TestComponent';
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 	</head>
 	<body>
-		<Header />
 		<main>
-			<h1>🧑‍🚀 Hello, Astronaut!</h1>
-			<TestReact client:load />
+			<Homepage client:load />
 		</main>
-		<Footer />
 	</body>
 </html>
