@@ -15,7 +15,7 @@ export default function Header() {
 						About
 					</a>
 					<a
-						href="https://www.linkedin.com/in/aselperera"
+						href="https://www.linkedin.com/in/aselperera/"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="text-gray-600 hover:text-gray-600 h-[14px]"
